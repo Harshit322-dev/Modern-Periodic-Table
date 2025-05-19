@@ -118,4 +118,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - [Harshit Prakash]
 
-Project Link: [https://github.com/yourusername/periodic-table](https://github.com/yourusername/periodic-table) 
+Project Link: [https://github.com/yourusername/periodic-table]([https://github.com/yourusername/periodic-table](https://github.com/Harshit322-dev/Modern-Periodic-Table.git)) 
