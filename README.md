@@ -2,7 +2,7 @@
 
 A beautiful and interactive web-based periodic table that displays all 118 elements with their properties and allows for dynamic filtering and exploration.
 
-![Periodic Table Preview](preview.png)
+![Periodic Table Preview](https://modern-periodic-table-ehgy-git-main-harshit-prakashs-projects.vercel.app)
 
 ## Features
 
