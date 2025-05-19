@@ -1,0 +1,13 @@
+{
+    "name": "periodic-table",
+    "version": "1.0.0",
+    "description": "Interactive Modern Periodic Table",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve .",
+        "build": "echo 'No build step required'"
+    },
+    "dependencies": {
+        "serve": "^14.2.1"
+    }
+} 

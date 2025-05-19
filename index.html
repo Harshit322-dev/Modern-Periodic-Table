@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Periodic Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Modern Periodic Table</h1>
+            <div class="filters">
+                <div class="filter-group">
+                    <h3>Classification</h3>
+                    <button class="filter-btn" data-filter="metal">Metals</button>
+                    <button class="filter-btn" data-filter="non-metal">Non-Metals</button>
+                    <button class="filter-btn" data-filter="metalloid">Metalloids</button>
+                </div>
+                <div class="filter-group">
+                    <h3>Nature</h3>
+                    <button class="filter-btn" data-filter="acidic">Acidic</button>
+                    <button class="filter-btn" data-filter="basic">Basic</button>
+                </div>
+                <div class="filter-group">
+                    <h3>State</h3>
+                    <button class="filter-btn" data-filter="solid">Solid</button>
+                    <button class="filter-btn" data-filter="liquid">Liquid</button>
+                    <button class="filter-btn" data-filter="gas">Gas</button>
+                </div>
+            </div>
+        </header>
+        
+        <div class="periodic-table">
+            <!-- Elements will be dynamically added here -->
+        </div>
+
+        <div class="element-details" id="elementDetails">
+            <div class="details-content">
+                <span class="close-btn">&times;</span>
+                <div class="element-header">
+                    <h2 id="elementName"></h2>
+                    <p id="elementSymbol"></p>
+                </div>
+                <div class="element-info">
+                    <div class="info-group">
+                        <p>Atomic Number: <span id="atomicNumber"></span></p>
+                        <p>Atomic Mass: <span id="atomicMass"></span></p>
+                        <p>Electronic Configuration: <span id="electronicConfig"></span></p>
+                    </div>
+                    <div class="info-group">
+                        <p>Nature: <span id="nature"></span></p>
+                        <p>State: <span id="state"></span></p>
+                        <p>Metallic Character: <span id="metallicCharacter"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
